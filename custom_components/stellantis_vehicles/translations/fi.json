@@ -4,7 +4,7 @@
       "user": {
         "description": "Määrittele ja kytke Stellantis autosi",
         "data": {
-          "mobile_app": "Vehicle mobile app"
+          "mobile_app": "Ajoneuvon sovellus"
         }
       },
       "country": {
@@ -28,7 +28,7 @@
         "name": "Käynnistysakun jännite"
       },
       "type": {
-        "name": "Type",
+        "name": "Tyyppi",
         "state": {
           "Electric": "Sähkö"
         }
@@ -43,7 +43,7 @@
         "name": "Autolla pääsee"
       },
       "battery": {
-        "name": "Akku"
+        "name": "Ajoakun tila"
       },
       "battery_soh": {
         "name": "Ajoakun SOH"
@@ -54,9 +54,9 @@
       "battery_charging_type": {
         "name": "Lataustapa",
         "state": {
-          "No": "No",
-          "Slow": "Slow",
-          "Quick": "Fast"
+          "No": "Ei latauksessa",
+          "Slow": "Hidas",
+          "Quick": "Nopea"
         }
       },
       "battery_charging_time": {
@@ -66,7 +66,7 @@
         "name": "Lataus päättyy"
       },
       "battery_capacity": {
-        "name": "Ajoakun kokonaiskapasiteetti"
+        "name": "Ajoakun kapasiteetti"
       },
       "battery_residual": {
         "name": "Ajoakun kapasiteettiä jäljellä"
@@ -76,24 +76,24 @@
         "state": {
           "99": "Ei yhteensopiva",
           "900": "Hyväksytty",
-          "901": "Lepotila",
+          "901": "Lepotilassa",
           "903": "Yhdistetty autoon",
           "0": "Suoritettu",
           "300": "Keskeytetty",
-          "500": "Error"
+          "500": "Virhe"
         }
       },
       "fuel": {
-        "name": "Fuel"
+        "name": "Polttoainetta"
       },
       "fuel_autonomy": {
-        "name": "Fuel autonomy"
+        "name": "Polttoaineen kulutus"
       },
       "fuel_consumption_total": {
-        "name": "Fuel consumption total"
+        "name": "kokonaiskulutus"
       },
       "fuel_consumption_instant": {
-        "name": "Fuel consumption instant"
+        "name": "Hetkellinen kulutus"
       }
     },
     "binary_sensor": {
